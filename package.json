@@ -1,5 +1,5 @@
 {
-  "name": "sink",
+  "name": "sink-cli",
   "version": "1.0.0",
   "description": "A tool to help sync files to remote sandboxes",
   "scripts": {
@@ -8,7 +8,16 @@
   "bin": {
     "sink": "./bin/sink.js"
   },
-  "author": "Riley Weber",
+  "author": {
+    "name": "Riley Weber",
+    "email": "rileypweber@gmail.com"
+  },
+  "homepage": "https://github.com/rileyweber/sink-cli",
+  "bugs": "https://github.com/rileyweber/sink-cli/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rileyweber/sink-cli.git"
+  },
   "license": "MIT",
   "dependencies": {
     "commander": "^2.19.0",
