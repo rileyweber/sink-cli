@@ -1,0 +1,18 @@
+{
+  "name": "sink",
+  "version": "1.0.0",
+  "description": "A tool to help sync files to remote sandboxes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sink": "./bin/sink.js"
+  },
+  "author": "Riley Weber",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.1",
+    "node-ssh": "^5.1.2"
+  }
+}
